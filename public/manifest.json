@@ -1,0 +1,43 @@
+{
+  "name": "NanoTime",
+  "short_name": "NanoTime",
+  "description": "A big display digital clock with a customizable interface.",
+  "version": "1.0.0",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "permissions": ["notifications"],
+  "shortcuts": [
+    {
+      "name": "Open Clock",
+      "short_name": "Clock",
+      "description": "Open the big display digital clock",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/icons/shortcut-clock.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "secondsVisible": true,
+    "fontSize": "large"
+  }
+}
